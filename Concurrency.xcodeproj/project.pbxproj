@@ -76,8 +76,7 @@
 		21F15B1E2C0392DA00282876 /* Concurrency */ = {
 			isa = PBXGroup;
 			children = (
-				21F15B1F2C0392DA00282876 /* AppDelegate.swift */,
-				21F15B212C0392DA00282876 /* SceneDelegate.swift */,
+				21F15B492C03CE8800282876 /* AppFiles */,
 				21F15B232C0392DA00282876 /* ThreadViewController.swift */,
 				21F15B332C0399AD00282876 /* LockViewController.swift */,
 				21F15B352C039F8600282876 /* DownloadImageViewController.swift */,
@@ -90,11 +89,28 @@
 				21F15B432C03BBBF00282876 /* ActorViewController.swift */,
 				21F15B452C03C3B000282876 /* AsyncLet.swift */,
 				21F15B472C03C8BE00282876 /* OperationViewController.swift */,
+				21F15B4A2C03CE9D00282876 /* SupportingFiles */,
+			);
+			path = Concurrency;
+			sourceTree = "<group>";
+		};
+		21F15B492C03CE8800282876 /* AppFiles */ = {
+			isa = PBXGroup;
+			children = (
+				21F15B1F2C0392DA00282876 /* AppDelegate.swift */,
+				21F15B212C0392DA00282876 /* SceneDelegate.swift */,
+			);
+			path = AppFiles;
+			sourceTree = "<group>";
+		};
+		21F15B4A2C03CE9D00282876 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
 				21F15B282C0392DB00282876 /* Assets.xcassets */,
 				21F15B2A2C0392DB00282876 /* LaunchScreen.storyboard */,
 				21F15B2D2C0392DB00282876 /* Info.plist */,
 			);
-			path = Concurrency;
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,7 +342,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KX8766VHZ8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Concurrency/Info.plist;
+				INFOPLIST_FILE = Concurrency/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -353,7 +369,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KX8766VHZ8;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Concurrency/Info.plist;
+				INFOPLIST_FILE = Concurrency/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
